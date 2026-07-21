@@ -28,10 +28,9 @@
     </div>
   </div>
 </div>
-
-<!-- Bottom Toolbar -->
-<div class="toolbar">
-  <button>📎 Attach</button>
-  <button>📷 Camera</button>
-  <button>➡️ Send</button>
+<div style="text-align:right;">
+  <button onclick="window.open('hunter_output.zip')">⬇️ Download</button>
+  <button onclick="navigator.clipboard.writeText(document.getElementById('workBox').innerText)">
+    📋 Copy
+  </button>
 </div>
